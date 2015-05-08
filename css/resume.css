@@ -1,15 +1,18 @@
 body {
   font-size: 13px;
+  font-family: Arial
 }
 
 h1 {
   font-size: 25px;
   margin-bottom: 4px;
+  font-family: Arial
 }
 
 h4 {
   margin-bottom: 5px;
   margin-top: 20px;
+  font-family: Arial
 }
 
 hr {
@@ -20,6 +23,19 @@ hr {
 ul {
   margin-bottom: 5px;
 }
-.coloredTitle { 
+
+td {
+	padding-right: 15px;
+}
+
+.colored-title { 
   color:#0070c0;
+}
+
+.description-space {
+	margin-top: 5px;
+}
+
+.job {
+  margin-bottom: 10px;
 }
