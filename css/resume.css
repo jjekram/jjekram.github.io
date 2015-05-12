@@ -4,14 +4,13 @@ body {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 4px;
   font-family: Arial
 }
 
 h4 {
   margin-bottom: 5px;
-  margin-top: 20px;
   font-family: Arial
 }
 
@@ -20,9 +19,6 @@ hr {
   margin-bottom: 10px;
 }
 
-ul {
-  margin-bottom: 5px;
-}
 
 td {
 	padding-right: 15px;
@@ -32,10 +28,27 @@ td {
   color:#0070c0;
 }
 
+.section {
+  margin-bottom: 20px;
+}
+
+.timeline {
+  color: grey;
+}
+
 .description-space {
 	margin-top: 5px;
 }
 
-.job {
-  margin-bottom: 10px;
+.company-title, .project-title, .degree-title {
+  font-weight: bold;
+}
+
+.company-title, .job-title, .project-title, .project-type, .degree-title, .university-title{
+  font-size: 15px;
+  font-family: Arial
+}
+
+.dev-tools {
+  font-style: italic;
 }
